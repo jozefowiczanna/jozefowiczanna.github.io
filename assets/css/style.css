@@ -803,7 +803,7 @@ p {
 .about-content .about-title {
   font-size: 18px;
   font-weight: 500;
-  padding-bottom: 15px; }
+  padding-bottom: 30px; }
 .about-content ul {
   padding-top: 15px; }
   .about-content ul li {
@@ -833,10 +833,16 @@ p {
   margin-bottom: 20px;
 }
 
+.skill-big-header {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
 .skill-header {
   margin-bottom: 10px;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .skill-list {
@@ -930,6 +936,7 @@ p {
   .single-work .work-image img {
     width: 100%; }
   .single-work .work-overlay {
+    overflow: hidden;
     position: absolute;
     top: 0;
     left: 0;
@@ -1614,7 +1621,7 @@ p.form-message.success, p.form-message.error {
 
 .work-h3 {
   text-align: center;
-  margin: 10px;
+  margin: 20px;
   font-size: 25px;
 }
 
