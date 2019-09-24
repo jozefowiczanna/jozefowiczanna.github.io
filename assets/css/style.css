@@ -575,7 +575,7 @@ p {
         color: #754ef9; }
         .navigation .navbar .navbar-nav .nav-item.active a::before, .navigation .navbar .navbar-nav .nav-item:hover a::before {
           height: 45px; }
-
+      
 .header-content {
   height: 730px;
   width: 100%;
@@ -995,14 +995,11 @@ p {
           transition: all 0.3s ease-out 0s;
           opacity: 0; }
           .single-work .work-overlay .work-content ul li a {
-            width: 50px;
-            height: 50px;
-            line-height: 50px;
+
             font-size: 25px;
             color: #fff;
-            border-radius: 50%;
-            border: 1px solid #fff;
             text-align: center;
+            padding: 10px 15px;
             -webkit-transition: all 0.3s ease-out 0s;
             -moz-transition: all 0.3s ease-out 0s;
             -ms-transition: all 0.3s ease-out 0s;
@@ -1650,6 +1647,6 @@ p.form-message.success, p.form-message.error {
 
 .btn-purple:hover {
   color: #fff;
-  background-color: transparent;
+  background-color: #6241d4;
   border-color: #6241d4;
 }
