@@ -1,1 +1,1 @@
-Portfolio na bazie template'u (https://uideck.com/).
+Portfolio based on template (https://uideck.com/).
