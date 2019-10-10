@@ -165,7 +165,9 @@ p {
   font-size: 45px;
   color: #000;
   text-align: center;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  text-align: center;
+}
   @media (max-width: 767px) {
     .section-title .title {
       font-size: 30px; } }
@@ -1656,4 +1658,14 @@ p.form-message.success, p.form-message.error {
   color: #fff;
   background-color: #6241d4;
   border-color: #6241d4;
+}
+
+.box-hidden {
+  visibility: hidden;
+}
+
+@media (max-width: 991px) {
+  .box-hidden {
+    display: none;
+  }
 }
