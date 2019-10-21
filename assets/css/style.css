@@ -1062,7 +1062,7 @@ p {
   }
   
   .project-list {
-    margin: 30px 15px;
+    margin: 30px 15px 0;
   }
 }
 
@@ -1658,14 +1658,4 @@ p.form-message.success, p.form-message.error {
   color: #fff;
   background-color: #6241d4;
   border-color: #6241d4;
-}
-
-.box-hidden {
-  visibility: hidden;
-}
-
-@media (max-width: 991px) {
-  .box-hidden {
-    display: none;
-  }
 }
