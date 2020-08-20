@@ -184,7 +184,6 @@
           <div class="about-skills pt-25">
             <div class="skill-item mt-25">
               <h4 class="skill-big-header">Skills</h4>
-              <h5 class="skill-header">Intermediate:</h5>
               <ul class="skill-list">
                 <li class="custom-list-item">HTML5</li>
                 <li class="custom-list-item">CSS</li>
@@ -193,10 +192,9 @@
                 <li class="custom-list-item">Bootstrap</li>
                 <li class="custom-list-item">Photoshop</li>
                 <li class="custom-list-item">English</li>
-              </ul>
-              <h5 class="skill-header">Basic:</h5>
-              <ul class="skill-list">
                 <li class="custom-list-item">React</li>
+                <li class="custom-list-item">MongoDB</li>
+                <li class="custom-list-item">Express</li>
                 <li class="custom-list-item">PHP</li>
                 <li class="custom-list-item">MySQL</li>
                 <li class="custom-list-item">Git</li>
@@ -220,22 +218,24 @@
           </div> <!-- section title -->
         </div>
       </div> <!-- row -->
+      
       <div class="row d-flex justify-content-around">
+
         <div class="box d-flex justify-content-center flex-column col-lg-5 col-md-8 col-sm-10 mb-5">
-          <h3 class="work-h3">Fruit shop</h3>
-          <h4 class="work-h4">Vue + Vue Router</h4>
+          <h3 class="work-h3">Pokejong</h3>
+          <h4 class="work-h4">React, Express, MongoDB</h4>
           <div>
             <div class="single-work text-center mt-30">
               <div class="work-image">
-                <img src="assets/images/fruitshop.png" alt="work">
+                <img src="assets/images/pokejong.png" alt="work">
               </div>
 
               <div class="work-overlay">
                 <div class="work-content">
-                  <h3 class="work-title">Fruitshop</h3>
+                  <h3 class="work-title">Pokejong</h3>
                   <ul>
-                    <li><a href="/fruitshop/">LIVE</a></li>
-                    <li><a href="https://github.com/jozefowiczanna/fruitshop/">GITHUB</a></li>
+                    <li><a href="http://pokejong.herokuapp.com/">LIVE</a></li>
+                    <li><a href="https://github.com/jozefowiczanna/pokejong/">GITHUB</a></li>
                   </ul>
                 </div>
               </div>
@@ -244,16 +244,18 @@
           </div>
 
           <div class="project-desc">
-            <p>Simple fruitshop built with Vue</p>
+            <p>Pokejong - a combination of mahjong game and pokemon theme. I created it from scratch to practice my MERN skills. Unlock and remove all tiles from the board. Register to save your scores to the database.</p>
             <ul class="project-list">
-              <li class="custom-list-item">
-                multiple sorting options
-              </li>
+              <li class="custom-list-item">flexible game logic which allows to render any 2d size grid with tile unlocking mechanism</li>
+              <li class="custom-list-item">random set of pokemons from Pokeapi</li>
+              <li class="custom-list-item">backend form validation</li>
+              <li class="custom-list-item">JWT authentication</li>
+              <li class="custom-list-item">MongoDB for users and scores storage</li>
             </ul>
           </div>
           <div class="d-flex justify-content-center mt-auto mb-4">
-            <a class="btn btn-purple m-1" href="/fruitshop/" target="_blank">Live</a>
-            <a class="btn btn-purple m-1" href="https://github.com/jozefowiczanna/fruitshop/"
+            <a class="btn btn-purple m-1" href="http://pokejong.herokuapp.com/" target="_blank">Live</a>
+            <a class="btn btn-purple m-1" href="https://github.com/jozefowiczanna/pokejong/"
               target="_blank">Github</a>
           </div>
         </div>
@@ -298,6 +300,43 @@
         </div>
 
         <div class="box d-flex justify-content-center flex-column col-lg-5 col-md-8 col-sm-10 mb-5">
+          <h3 class="work-h3">Fruit shop</h3>
+          <h4 class="work-h4">Vue + Vue Router</h4>
+          <div>
+            <div class="single-work text-center mt-30">
+              <div class="work-image">
+                <img src="assets/images/fruitshop.png" alt="work">
+              </div>
+
+              <div class="work-overlay">
+                <div class="work-content">
+                  <h3 class="work-title">Fruitshop</h3>
+                  <ul>
+                    <li><a href="/fruitshop/">LIVE</a></li>
+                    <li><a href="https://github.com/jozefowiczanna/fruitshop/">GITHUB</a></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div> <!-- single work -->
+          </div>
+
+          <div class="project-desc">
+            <p>Simple fruitshop built with Vue</p>
+            <ul class="project-list">
+              <li class="custom-list-item">
+                multiple sorting options
+              </li>
+            </ul>
+          </div>
+          <div class="d-flex justify-content-center mt-auto mb-4">
+            <a class="btn btn-purple m-1" href="/fruitshop/" target="_blank">Live</a>
+            <a class="btn btn-purple m-1" href="https://github.com/jozefowiczanna/fruitshop/"
+              target="_blank">Github</a>
+          </div>
+        </div>
+
+        <div class="box d-flex justify-content-center flex-column col-lg-5 col-md-8 col-sm-10 mb-5">
           <h3 class="work-h3">PSD to HTML - Advocatus</h3>
           <h4 class="work-h4">HTML / CSS / Bootstrap / jQuery</h4>
           <div>
@@ -331,6 +370,7 @@
             <a class="btn btn-purple m-1" href="https://github.com/jozefowiczanna/advocatus/" target="_blank">Github</a>
           </div>
         </div>
+        
 
         <div class="box d-flex justify-content-center flex-column col-lg-5 col-md-8 col-sm-10 mb-5">
           <h3 class="work-h3">European population</h3>
@@ -368,6 +408,9 @@
             <a class="btn btn-purple m-1" href="https://github.com/jozefowiczanna/European-Population/"
               target="_blank">Github</a>
           </div>
+        </div>
+
+        <div class="box justify-content-center flex-column col-lg-5 col-md-8 col-sm-10 mb-5 invisible">
         </div>
 
       </div> <!-- row -->
